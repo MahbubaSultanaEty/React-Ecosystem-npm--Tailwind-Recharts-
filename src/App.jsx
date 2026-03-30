@@ -1,16 +1,28 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+
 import './App.css'
+import DaisyUiNav from './components/DaisyUiNav/DaisyUiNav'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>    
+      
+      <header>
+        <Navbar></Navbar>
+        <DaisyUiNav></DaisyUiNav>
+      </header>
+
+      <main>
+
+      </main>
+
+      <footer>
+
+      </footer>
         
-        <h1>Get started</h1>
    
     </>
   )
