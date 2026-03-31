@@ -6,8 +6,10 @@ import Navbar from './components/Navbar/Navbar'
 import PricingOptions from './components/PricingOptions/PricingOptions'
 import Main from './components/Main/Main'
 import ResultChart from './components/ResultChart/ResultChart'
+import axios from 'axios'
+import MarksCharts from './components/MarksChart/MarksCharts'
 
-
+const marksPromise= axios.get('/public/marksData.json') 
 function App() {
 
 
@@ -22,7 +24,10 @@ function App() {
     
       <Main> </Main>
       <ResultChart></ResultChart>
-  
+    
+      <Suspense>
+        <MarksCharts marksPromise={marksPromise}></MarksCharts>
+      </Suspense>
 
       <footer>
 
