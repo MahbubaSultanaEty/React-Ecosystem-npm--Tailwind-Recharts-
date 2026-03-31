@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "Basic",
+    "priceTag": "$10/month",
+    "description": "Perfect for individuals getting started.",
+    "features": [
+      "Access to basic features",
+      "Email support",
+      "Single user",
+      "Limited storage (5GB)",
+      "Basic security",
+      "Community access",
+      "Weekly updates"
+    ],
+    "isPopular": false
+  },
+  {
+    "id": 2,
+    "name": "Standard",
+    "priceTag": "$25/month",
+    "description": "Best for small teams and growing users.",
+    "features": [
+      "All Basic features",
+      "Priority email support",
+      "Up to 5 users",
+      "Storage up to 50GB",
+      "Advanced security",
+      "Team collaboration tools",
+      "Daily backups",
+      "Custom themes"
+    ],
+    "isPopular": true
+  },
+  {
+    "id": 3,
+    "name": "Premium",
+    "priceTag": "$50/month",
+    "description": "Advanced features for professionals.",
+    "features": [
+      "All Standard features",
+      "24/7 support",
+      "Unlimited users",
+      "Unlimited storage",
+      "Advanced analytics",
+      "Dedicated account manager",
+      "API access",
+      "Automation tools",
+      "Priority updates"
+    ],
+    "isPopular": false
+  }
+]

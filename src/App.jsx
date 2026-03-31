@@ -1,7 +1,11 @@
 
+import React, { Suspense } from 'react'
 import './App.css'
 import DaisyUiNav from './components/DaisyUiNav/DaisyUiNav'
 import Navbar from './components/Navbar/Navbar'
+import PricingOptions from './components/PricingOptions/PricingOptions'
+import Main from './components/Main/Main'
+
 
 function App() {
 
@@ -11,12 +15,12 @@ function App() {
       
       <header>
         <Navbar></Navbar>
-        <DaisyUiNav></DaisyUiNav>
-      </header>
+        {/* <DaisyUiNav></DaisyUiNav> */}
+     </header>
 
-      <main>
-
-      </main>
+    
+      <Main> </Main>
+  
 
       <footer>
 
